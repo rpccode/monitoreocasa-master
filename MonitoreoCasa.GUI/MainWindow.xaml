@@ -1,0 +1,38 @@
+﻿<Window x:Class="MonitoreoCasa.GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonitoreoCasa.GUI"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".25*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height=".25*"/>
+        </Grid.RowDefinitions>
+        <Label HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" FontFamily="Showcard Gothic" FontWeight="Bold" FontStyle="Italic" >
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0F4DB9" Offset="0"/>
+                    <GradientStop Color="#FF070808" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground> Monitoreo Casa
+        </Label>
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" >
+            <Label HorizontalAlignment="Center">Usuario</Label>
+            <TextBox x:Name="txbUsuario"></TextBox>
+            <Label HorizontalAlignment="Center">Contraseña</Label>
+            <PasswordBox x:Name="pswPassword"></PasswordBox>
+        </StackPanel>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btnCrearCuenta" Click="btnCrearCuenta_Click" Background="Blue"  Margin="10,30" Foreground="White">Crear cuenta</Button>
+            <Button x:Name="btnIniciarSesion" Click="btnIniciarSesion_Click"  Margin="10,30" Background="Green" Foreground="White" Grid.Column="1">Iniciar Sesión</Button>
+        </Grid>
+    </Grid>
+</Window>

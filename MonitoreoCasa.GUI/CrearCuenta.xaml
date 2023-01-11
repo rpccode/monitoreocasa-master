@@ -1,0 +1,19 @@
+﻿<Window x:Class="MonitoreoCasa.GUI.CrearCuenta"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MonitoreoCasa.GUI"
+        mc:Ignorable="d"
+        Title="CrearCuenta" Height="220" Width="400" ResizeMode="NoResize">
+    <StackPanel>
+        <Label>Nombre de Usuario</Label>
+        <TextBox x:Name="txbNombre"></TextBox>
+        <Label>Contraseña</Label>
+        <PasswordBox x:Name="pswPass1"></PasswordBox>
+        <Label>Repita su contraseña</Label>
+        <PasswordBox x:Name="pswPass2"></PasswordBox>
+        <Button x:Name="btnGuardar" Click="btnGuardar_Click">Guardar</Button>
+        <Button x:Name="btnCancelar" Click="btnCancelar_Click">Cancelar</Button>
+    </StackPanel>
+</Window>

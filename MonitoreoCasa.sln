@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonitoreoCasa.COMMON", "MonitoreoCasa.COMMON\MonitoreoCasa.COMMON.csproj", "{78423679-766A-41C5-9BB1-762C83A12761}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonitoreoCasa.DAL", "MonitoreoCasa.DAL\MonitoreoCasa.DAL.csproj", "{6E9F9D94-5A5E-4998-AEA0-FC405FF6A3D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonitoreoCasa.BIZ", "MonitoreoCasa.BIZ\MonitoreoCasa.BIZ.csproj", "{9DEAC054-6444-4F50-B63A-C1D8836E4A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoreoCasa.GUI", "MonitoreoCasa.GUI\MonitoreoCasa.GUI.csproj", "{57498924-F629-4785-91E2-769553B58437}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonitoreoCasa.DAL.Local", "MonitoreoCasa.DAL.Local\MonitoreoCasa.DAL.Local.csproj", "{577D9873-B5B9-4682-BC98-D36875D0B614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoreoCasa.Uploader", "MonitoreoCasa.Uploader\MonitoreoCasa.Uploader.csproj", "{E667373B-8614-40BE-82C9-A26E7050F595}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78423679-766A-41C5-9BB1-762C83A12761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78423679-766A-41C5-9BB1-762C83A12761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78423679-766A-41C5-9BB1-762C83A12761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78423679-766A-41C5-9BB1-762C83A12761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E9F9D94-5A5E-4998-AEA0-FC405FF6A3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9F9D94-5A5E-4998-AEA0-FC405FF6A3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9F9D94-5A5E-4998-AEA0-FC405FF6A3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9F9D94-5A5E-4998-AEA0-FC405FF6A3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DEAC054-6444-4F50-B63A-C1D8836E4A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DEAC054-6444-4F50-B63A-C1D8836E4A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DEAC054-6444-4F50-B63A-C1D8836E4A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DEAC054-6444-4F50-B63A-C1D8836E4A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57498924-F629-4785-91E2-769553B58437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57498924-F629-4785-91E2-769553B58437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57498924-F629-4785-91E2-769553B58437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57498924-F629-4785-91E2-769553B58437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577D9873-B5B9-4682-BC98-D36875D0B614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577D9873-B5B9-4682-BC98-D36875D0B614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577D9873-B5B9-4682-BC98-D36875D0B614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577D9873-B5B9-4682-BC98-D36875D0B614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E667373B-8614-40BE-82C9-A26E7050F595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E667373B-8614-40BE-82C9-A26E7050F595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E667373B-8614-40BE-82C9-A26E7050F595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E667373B-8614-40BE-82C9-A26E7050F595}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1F511FF-B4D2-4B6D-8F8B-7282A0820DE6}
+	EndGlobalSection
+EndGlobal
